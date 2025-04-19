@@ -201,6 +201,43 @@ nav ul li {
     justify-content: space-around;
   }
 
+   <style>
+  .signup-section {
+    text-align: center;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: auto;
+  }
+
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .signup-form input[type="email"] {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+
+  .signup-form button {
+    padding: 0.8rem;
+    background-color: #2d6cdf;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .signup-form button:hover {
+    background-color: #174cb3;
+  }
+</style> 
   main {
     max-width: 1200px;
     margin: auto;
