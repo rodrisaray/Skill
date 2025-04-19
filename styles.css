@@ -200,8 +200,7 @@ nav ul li {
     display: flex;
     justify-content: space-around;
   }
-
-   <style>
+    
   .signup-section {
     text-align: center;
     padding: 2rem;
@@ -236,8 +235,7 @@ nav ul li {
 
   .signup-form button:hover {
     background-color: #174cb3;
-  }
-</style> 
+  } 
   main {
     max-width: 1200px;
     margin: auto;
