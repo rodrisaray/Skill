@@ -201,4 +201,44 @@ nav ul li {
     justify-content: space-around;
   }
     
-  
+ body {
+      font-family: sans-serif;
+      background-color: #f0f4f8;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .signup-box {
+      background: white;
+      max-width: 400px;
+      margin: auto;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+
+    .signup-box h2 {
+      margin-bottom: 1rem;
+    }
+
+    .signup-box input[type="email"] {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    .signup-box button {
+      padding: 0.75rem 1.5rem;
+      background-color: #0070f3;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .signup-box button:hover {
+      background-color: #0056c1;
+    } 
